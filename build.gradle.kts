@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.fir.references.builder.buildFromMissingDependenciesNamedReference
+
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
     alias(libs.plugins.android.application) apply false
@@ -12,7 +14,7 @@ buildscript {
     }
 
     dependencies {
-        classpath("com.google.dagger:hilt-android-gradle-plugin:2.40.5")
+        classpath("com.google.dagger:hilt-android-gradle-plugin:2.44")
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }

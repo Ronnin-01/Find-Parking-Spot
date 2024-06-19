@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">My Spot</string>
     <string name="title_activity_main">MainActivity</string>
+
+        <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAspYanLVPwJu7l4byRuPukqcTGtkEV6FM</string>
+
+
+
 </resources>
