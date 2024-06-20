@@ -25,6 +25,8 @@ object AppModule {
         ).build()
     }
 
+
+
     @Singleton
     @Provides
     fun provideParkingSpotRepository(db: ParkingSpotDatabase): ParkingSpotRepository {
