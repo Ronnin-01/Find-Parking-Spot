@@ -8,4 +8,5 @@ data class MapState(
     val properties: MapProperties = MapProperties(),
     val parkingSpots: List<ParkingSpot> = emptyList(),
     val isFalloutMap: Boolean = false
+
 )
